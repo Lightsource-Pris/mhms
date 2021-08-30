@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Mental Health Monitoring System</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+
+    <!-- Custom Css --> 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mental.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/icon-114x114.png">
+
+
+  </head>
+  <style>
+    @media screen and (min-width:756px) {
+      .www{
+        color: #ffffff; 
+        margin-top: 50px;
+      }
+      .section-box-wrapper{
+        padding-top: 50px;
+      }
+    }
+  </style>
+  <body>
+
+    <div class="ugf-wrapper">
+      <div class="logo">
+        <h2 class="img-fluid logo-white">MHMS</h2>
+        <!-- <img src=""  alt="Mental Health"> -->
+        <!-- <h2 class="img-fluid">MHMS</h2> -->
+        <h2 class="www">A Web Based Mental Health Monitoring System</h2>
+          <p><h4 style="color: #ffffff;">Please answer the questions on the right</h4></p>
+      </div>
+      <div class="ugf-content-block">
+        <!-- <div class="content-block" style="margin-top:auto;">
+          
+        </div> -->
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 offset-lg-7">
+            <div class="section-box-wrapper">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><span class="step-text"><span class="current-step"></span> of <span class="total-step"></span> completed</span></div>
+              </div>
+              <div class="form-steps active" style="margin-top: -50px!important;">
+                <h3>General Anxiety</h3>
+                <form action="" method="POST">
+                 <div class="section-box"> 
+                  <div class="form-group">
+                    <h6>How often do you get scared?</h6>
+                    <select class="form-control" id="ga-1">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Does your fear happen for reason?</h6>
+                    <select class="form-control" id="ga-2">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Does your fear happen without reasons?</h6>
+                    <select class="form-control" id="ga-3">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you experience fast heart beat?</h6>
+                    <select class="form-control" id="ga-4">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you experience shortness of breath?</h6>
+                    <select class="form-control" id="ga-5">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you experience uncontrollable Shaking of your body when you get scared either for a reason or no reason?</h6>
+                    <select class="form-control" id="ga-6">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever want to stay away from things that scares you?</h6>
+                    <select class="form-control" id="ga-7">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you try and succeed in calming yourself when you get scared?</h6>
+                    <select class="form-control" id="ga-8">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How long have you been experiencing fear without a reason?</h6>
+                    <select class="form-control" id="ga-9">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <button class="btn step-btn">Next</button>
+                </div>
+              </div>
+
+
+
+              <div class="form-steps" style="margin-top: -50px!important;">
+                <a class="prev"><i class="las la-arrow-left"></i>Previous Step</a>
+                <h3 class="">Social Disorder Questions</h3>
+                <div class="section-box">
+                  <div class="form-group">
+                    <h6>Do you ever feel nervous when you are going to a public place?</h6>
+                    <select class="form-control" id="sd-1">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you always want to stay away from social gatherings?</h6>
+                    <select class="form-control" id="sd-2">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you find it uncomfortable eating in the public?</h6>
+                    <select class="form-control" id="sd-3">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you talk to strangers comfortably? </h6>
+                    <select class="form-control" id="sd-4">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you feel shy or nervous addressing a large congregation of people?</h6>
+                    <select class="form-control" id="sd-5">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you feel shy on camera?</h6>
+                    <select class="form-control" id="sd-6">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you feel comfortable being on the spot light?</h6>
+                    <select class="form-control" id="sd-7">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <button class="btn step-btn">Next</button>
+                </div>
+              </div>
+
+
+
+              <div class="form-steps" style="margin-top: -50px!important;">
+                <a href="job-2.html" class="prev"><i class="las la-arrow-left"></i>Previous Step</a>
+                <h3>OCD question (Obsession compulsory disorder)</h3>
+                <div action="#" class="section-box">
+                  <div class="form-group">
+                    <h6>Do you ever have a strong urge to keep or collect things to yourself?</h6>
+                    <select class="form-control" id="ocd-1">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you feel a compulsion of having things to yourself either for a reason or no reason?</h6>
+                    <select class="form-control" id="ocd-2">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you feel the strong desire to take things for yourself with a reason? </h6>
+                    <select class="form-control" id="ocd-3">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you feel the strong desire to take things for yourself without a reason?  </h6>
+                    <select class="form-control" id="ocd-4">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you feel extremely upset when you don’t have things you want?</h6>
+                    <select class="form-control" id="ocd-5">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you go extra mile to get things you desire even if they belong to another person?</h6>
+                    <select class="form-control" id="ocd-6">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Does the possession of things make you feel calm even if they are not yours to keep?</h6>
+                    <select class="form-control" id="ocd-7">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you feel the strong will to keep things that are either useful or not to yourself?</h6>
+                    <select class="form-control" id="ocd-8">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How long have you being having the strong will to keep things for yourself to feel calm or settled?</h6>
+                    <select class="form-control" id="ocd-9">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <button class="btn step-btn">Next</button>
+                </div>
+              </div>
+
+
+
+              <div class="form-steps" style="margin-top: -50px!important;">
+                <a href="job-3.html" class="prev"><i class="las la-arrow-left"></i>Previous Step</a>
+                <h3 class="">PTSD Questions</h3>
+                <div class="section-box">
+                  <div class="form-group">
+                    <h6>Have you ever been involved in a life threatening event?</h6>
+                    <select class="form-control" id="ptsd-1">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you have memory flash black of this life threatening event?</h6>
+                    <select class="form-control" id="ptsd-2">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Does this flash back give to intense fear?</h6>
+                    <select class="form-control" id="ptsd-3">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever feel like the event is happening over again?</h6>
+                    <select class="form-control" id="ptsd-4">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>What’s your reaction like when experiencing this event flash back?</h6>
+                    <select class="form-control" id="ptsd-5">
+                      <option value="0">Screaming</option>
+                      <option value="1">Intense panic attack</option>
+                      <option value="2">Passing out</option>
+                      <option value="3">Others</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you feel worried, sad or guilty about your experience?</h6>
+                    <select class="form-control" id="ptsd-6">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you often experience unnecessary anger outburst after the occurrence of this event?</h6>
+                    <select class="form-control" id="ptsd-7">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you find it uncomfortable staying alone after this event occurred?</h6>
+                    <select class="form-control" id="ptsd-8">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you have troubles concentrating on your daily activities?</h6>
+                    <select class="form-control" id="ptsd-9">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you have nightmares about this event?</h6>
+                    <select class="form-control" id="ptsd-10">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you consciously avoid place or things that brings back this memory flash back?</h6>
+                    <select class="form-control" id="ptsd-11">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>When did you start experiencing this fear?</h6>
+                    <select class="form-control" id="ptsd-12">
+                      <option value="0">immediately after the event occurred </option>
+                      <option value="1">within one to three months after the event </option>
+                      <option value="2">within three to six months after the event occurred</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How long have you been experiencing this fear?</h6>
+                    <select class="form-control" id="ptsd-13">
+                      <option value="0">Less than a month</option>
+                      <option value="1">within a month and three months</option>
+                      <option value="2">Over three months</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you still keep in contact with your friends or relatives that were involved in the incident with you, if any?</h6>
+                    <select class="form-control" id="ptsd-14">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you find it comfortable discussing this incident with other people either they are relatives or not?</h6>
+                    <select class="form-control" id="ptsd-15">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <button class="btn step-btn">Next</button>
+                </div>
+              </div>
+
+
+
+
+              <div class="form-steps" style="margin-top: -50px!important;">
+                <a class="prev"><i class="las la-arrow-left"></i>Previous Step</a>
+                <h3>Depression Questions</h3>
+                <div class="section-box">
+                  <div class="form-group">
+                    <h6>How often do you feel love, joy satisfaction, interest and happiness?</h6>
+                    <select class="form-control" id="d-1">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever feel purposeful in life?</h6>
+                    <select class="form-control" id="d-2">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you feel sad or discouraged?</h6>
+                    <select class="form-control" id="d-3">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you often get excited about things?</h6>
+                    <select class="form-control" id="d-4">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever had thought you are not good enough?</h6>
+                    <select class="form-control" id="d-5">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever experience being unable to see meaning in actions, relationship or world affairs?</h6>
+                    <select class="form-control" id="d-6">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you often feel sad for days with or without specific reasons?</h6>
+                    <select class="form-control" id="d-7">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever notice if any of your nuclear relatives feel sad or uninterested in daily activities sometimes?  </h6>
+                    <select class="form-control" id="d-8">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever feel a bit too sensitive to discussions?</h6>
+                    <select class="form-control" id="d-9">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Ever experienced having suicidal thought?</h6>
+                    <select class="form-control" id="d-10">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you have irregular sleeping either finding it hard to sleep or over sleeping?</h6>
+                    <select class="form-control" id="d-11">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you have irregular eating either loss of appetite or over eating?</h6>
+                    <select class="form-control" id="d-12">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you ever noticed feeling happy a minute then in split second you just feel sad for no reason?</h6>
+                    <select class="form-control" id="d-13">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>Do you consider yourself an over thinker?</h6>
+                    <select class="form-control" id="d-14">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How often do you get lost in sad thoughts?</h6>
+                    <select class="form-control" id="d-15">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <h6>How long have you been experiencing feeling sad?</h6>
+                    <select class="form-control" id="d-16">
+                      <option value="0">Never</option>
+                      <option value="1">Rarely</option>
+                      <option value="2">Occassionally</option>
+                      <option value="3">Frequently</option>
+                    </select>
+                  </div>
+                  <button type="button" class="btn" onclick="calculate()">Submit</button>
+                  </div>
+                </form>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="copyright">
+          <p>Project By <b>OLUNUGA OLUWAJUWONLO</b></p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="js/custom.js"></script>
+    <script src="js/calculate.js"></script>
+  </body>
+
+</html>
