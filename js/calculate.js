@@ -261,8 +261,12 @@ function calculate(){
         var output = "You have average social disorder, OCD, PTSD and depression";
         var advice = "";
     }else{
-        output = "Combined illness";
+        var outputs = ['You have mild PTSD and mild OCD', 'You have average PTSD and mild OCD', 'You have mild OCD and average OCD','You have severe Depression and mild OCD','You have average PTSD and average Social Disorder'];
+        var output= outputs[Math.floor(Math.random() * outputs.length)];
     }
 
-    alert(output);
+    // Store
+    sessionStorage.setItem("output", output);
+    sessionStorage.setItem("advice", advice);
+
 }

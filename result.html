@@ -67,8 +67,8 @@
                 <form action="./" method="POST">
                  <div class="section-box"> 
                   <div class="form-group">
-                    <h5>You have been diagnosed with severe depression and severe anxiety.<br>
-                        Advice: please see a doctor immediately.</h5>
+                    <h5>Diagnosis: <span id="diagnosis"></span><br>
+                        Advice: <span id="advice"></span></h5>
                   </div>
                   <button class="btn step-btn">Done</button>
                 </div>
@@ -97,6 +97,11 @@
 
     <script src="js/custom.js"></script>
     <script src="js/calculate.js"></script>
+    <script>
+            // Retrieve
+    document.getElementById("diagnosis").innerHTML = sessionStorage.getItem("diagnosis");
+    document.getElementById("advice").innerHTML = sessionStorage.getItem("advice");
+    </script>
   </body>
 
 </html>
