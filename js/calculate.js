@@ -263,10 +263,12 @@ function calculate(){
     }else{
         var outputs = ['You have mild PTSD and mild OCD', 'You have average PTSD and mild OCD', 'You have mild OCD and average OCD','You have severe Depression and mild OCD','You have average PTSD and average Social Disorder'];
         var output= outputs[Math.floor(Math.random() * outputs.length)];
+        var advice = "See a doctor"
     }
 
     // Store
-    sessionStorage.setItem("output", output);
+    sessionStorage.setItem("diagnosis", output);
     sessionStorage.setItem("advice", advice);
+    location.href='result.html';
 
 }
